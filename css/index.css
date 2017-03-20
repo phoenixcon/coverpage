@@ -84,7 +84,7 @@ a {
 .accordion ul li {
     display:table-cell;
     position: relative;
-    width:25%;
+    width:20%;
     height: 500px;
     background-size: cover;
     background-repeat:no-repeat;
@@ -94,12 +94,12 @@ a {
 }
 
 .accordion ul:hover li {
-    width: 12%;
+    width: 10%;
     transition: width 500ms;
 }
 
 .accordion ul li:hover {
-    width: 64%;
+    width: 60%;
     transition: width 500ms;
 }
 
@@ -141,6 +141,10 @@ a {
 
 #books {
     background-image: url(../images/books-original.jpeg);
+}
+
+#travel {
+    background-image: url(../images/travel-original.jpeg);
 }
 
 #about {
