@@ -36,7 +36,7 @@ body {
 
 html {
     color: white;
-    background-color: #839788;
+    background-color: #2f4858;
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
 }
@@ -51,6 +51,7 @@ h1 {
     font-weight: bold;
     text-align: center;
     margin: 50px 0;
+    text-transform: capitalize;
 }
 
 h2 {
@@ -108,12 +109,26 @@ a {
     height: 100%;
     background-color:rgba(0,0,0,0);
     overflow: hidden;
-    transition: background-color 200ms;
+    transition: background-color 200ms, color 200ms;
+}
+
+.accordion h2 {
+    position: relative;
+    top: 0;
+    transition: top 400ms;
 }
 
 .accordion a:hover {
+    color: #86bbd8;
     background-color:rgba(0,0,0,0.4);
-    transition: background-color 200ms;
+    font-weight: bold;
+    transition: background-color 200ms, color 200ms;
+}
+
+.accordion a:hover h2 {
+    position: relative;
+    top: 222px;
+    transition: top 400ms;
 }
 
 #food {
